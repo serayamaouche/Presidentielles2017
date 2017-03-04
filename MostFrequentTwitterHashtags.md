@@ -3,6 +3,15 @@
 
 The [scholar R package](https://cran.r-project.org/web/packages/scholar/index.html) provides functions to retrieve citation data from Google Scholar. The package provides functions for comparing multiple scholars and predicting h-index scores based on past publication records.
 
+| Candidat | Parti | Compte Twitter | Nombre de followers" | Nombre de tweets |
+| Jean-Luc Mélenchon |  La France insoumise | [@JLMelenchon](https:twitter.com/JLMelenchon) | 982 K | 19,9 k |
+| Emmanuel Macron  |En Marche | [@EmmanuelMacron](https:twitter.com/EmmanuelMacron) | 536 K | 2 015 |
+| François Fillon |Les Républicains  | [@FrancoisFillon](https:twitter.com/FrancoisFillon) | 441 K | 16,1 K |
+| Benoît Hamon   |Parti socialiste | [@benoithamon](https:twitter.com/benoithamon) | 338 K | 7 520 |
+| Nicolas Dupont-Aignan |Debout la France | [@dupontaignan](https:twitter.com/dupontaignan) | 9 576 | 90 k |
+| Nathalie Arthaud |Lutte ouvrière | [@n_arthaud](https:twitter.com/n_arthaud) | 2 004 | 617 |
+
+
 <p align="center">
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/Parrainages3mars2017.png" width="600"/>
 </p>

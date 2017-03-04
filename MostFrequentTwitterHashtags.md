@@ -50,6 +50,7 @@ Les résultats présentées ci-après montrent que François Fillon et Nicolas D
 
 <h6>1- François Fillon</h6>
 
+Contrairement à Emmanuel Macron dont les hashtags reflètement une utilisation de Twitter pour détailler son programme, les qui sont utilisés par François Fillon se limitent à des sujets polémiques contre notamment deux cibles : Emmanuel Macron et François Bayrou. Sans doute pour critiquer le soutien de ce dernier sur sa décision de soutenir le candidat d'En Marche.
 
 <p align="center">
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/HashtagsFillon.png" width="600"/>
@@ -57,6 +58,8 @@ Les résultats présentées ci-après montrent que François Fillon et Nicolas D
 
 
 2- Emmanuel Macron
+Pour Emmanuel Macron, des hashtags pour présenter son programme (#ProgrammeEM) ou d'autres liés à son ancienne activité en tant que ministre de l'economie tels les mots-dièse #Frenchtech et #LoiActivité, arrivent en premier. 
+Aucun hashtag qui reflète des discussions sur des polémiques politiques ou qui inclut le nom d'un des autres candidat n'apparaît dans les résultats de nos analyses.
 
 <p align="center">
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/HashtagsMacron.png" width="600"/>

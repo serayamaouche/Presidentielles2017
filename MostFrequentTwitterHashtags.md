@@ -7,7 +7,7 @@ Twitter est un outil intéressant qui fonctionne comme un agrégateur d'articles
 
 Twitter n'est pas seulement un endroit propice aux discussions politiques et au suivi des discours et des déplacements des candidats, il sert également à identifier les sources des polémiques qui ciblent certains candidats.
 
-L'analyse des données massives (Big Data) générées sur par les citoyens, les journalistes, les experts ou par les candidats eux même permet de corriger la stratégie d'une campagne. Elle sert également à répondre rapidement aux 
+L'analyse des données massives (Big Data) générées sur par les citoyens, les journalistes, les experts ou par les candidats eux même permet de corriger la stratégie d'une campagne. Elle sert également à répondre rapidement aux polémiques et aux fausses informations.
 
 Une étude publié, le 12 octobre dernier, par [Harris Interactive](http://harris-interactive.fr/opinion_polls/twitter-dans-la-vie-politique-et-les-campagnes-electorales/) a montré que 71% des internautes estiment que l’actualité politique est présente sur Twitter. 53% de ces internautes consultent Twitter sur le thème de la politique.
 

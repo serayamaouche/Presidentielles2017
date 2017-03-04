@@ -28,8 +28,8 @@ François Fillon et Emmanuel Macron disposent du grand nombre de signatures. Le 
 </p>
 
 
-<h5>Nombres de followers et de tweets par candidat</h5>
-Cette table donne les comptes twitter des six candidats aux Présidentielles 2017. La table est ordonnée selon le nombre d'abonnés (followers). Jean-Luc Mélenchon arrive en première position suivi d'Emmanuel Macron bien que ce dernier ne tweete que très peu (seulement 2 015 messages de 140 caratères (tweets)). 
+<h3>Nombre total de followers et de tweets par candidat</h3>
+Cette table donne les comptes Twitter des six candidats à la Présidentielle de 2017 qui ont été sélectionnés pour notre analyse. La table est ordonnée selon le nombre d'abonnés (followers). Jean-Luc Mélenchon arrive en première position suivi d'Emmanuel Macron bien que ce dernier ne tweete que très peu (seulement 2 015 messages de 140 caratères (tweets) depuis l'ouverture de son compte). 
 
 
 | Candidat | Parti | Compte Twitter | Nombre de "followers" | Nombre de tweets |
@@ -43,8 +43,8 @@ Cette table donne les comptes twitter des six candidats aux Présidentielles 201
 (Ces données ont été extraites le 4 mars 2017 à 16h30)
 
 
-
-
+<h3>3- Quels sont les mots-dièse (hashtags) les plus utilisés par chaque candidat ?</h3>
+Pour cette analyse effetcuée dans [R](https://www.r-project.org) (le script [est disponible](https://github.com/serayamaouche/Presidentielles2017/blob/master/Pres2017MostFreqHashtags.R) dans ce répertoire github), les données ont été extraites via l'[API de twitter](https://dev.twitter.com/rest/public) dans R.
 
 1- François Fillon
 

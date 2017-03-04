@@ -7,7 +7,7 @@ The [scholar R package](https://cran.r-project.org/web/packages/scholar/index.ht
 1- François Fillon
 
 <p align="center">
-  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/HashtagsFillon.png" width="450"/>
+  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/HashtagsFillon.png" width="600"/>
 </p>
 
 

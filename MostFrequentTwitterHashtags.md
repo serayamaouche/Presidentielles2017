@@ -20,7 +20,7 @@ Sur les 313 millions d'utilisateurs actifs dans le monde (source : [Twitter 09/0
 Dans cet exemple, nous montrons comment l'analyse des messages publiés par les candidats à Présidentielle de 2017 sur Twitter permet d'identier les sujets prioritaires pour chaque candidat.
 
 <h3>1- Sélection des candidats dont les comptes Twitter seront analysés</h3>
-Afin de sélectionner les candidats à considérer pour cette analyse, nous avons préféré utiliser le critère du nombre total des parrainages que le Conseil Constitutionel [a reçu jusqu'au 3 mars(https://presidentielle2017.conseil-constitutionnel.fr/les-parrainages/parrainages-par-candidat/). Les six premiers candidats ont été incluts dans notre analyse (Marine Le Pen, qui à ce jour disposes seulement de 84 signatures, n'a pas été considérée).
+Afin de sélectionner les candidats à considérer pour cette analyse, nous avons préféré utiliser le critère du nombre total des parrainages que le Conseil Constitutionel [a reçu jusqu'au 3 mars (https://presidentielle2017.conseil-constitutionnel.fr/les-parrainages/parrainages-par-candidat/). Les six premiers candidats ont été incluts dans notre analyse (Marine Le Pen, qui à ce jour disposes seulement de 84 signatures, n'a pas été considérée).
 François Fillon et Emmanuel Macron disposent du grand nombre de signatures. Le premier déjà dépassé les 500 signatures par des élus d’au moins 30 départements ou collectivités d’outre-mer.
 
 <p align="center">
@@ -46,7 +46,10 @@ Cette table donne les comptes Twitter des six candidats à la Présidentielle de
 <h3>3- Quels sont les mots-dièse (hashtags) les plus utilisés par chaque candidat ?</h3>
 Pour cette analyse effetcuée dans [R](https://www.r-project.org) (le script [est disponible](https://github.com/serayamaouche/Presidentielles2017/blob/master/Pres2017MostFreqHashtags.R) dans ce répertoire github), les données ont été extraites via l'[API de twitter](https://dev.twitter.com/rest/public) dans R.
 
-1- François Fillon
+Les résultats présentées ci-après montrent que François Fillon et Nicolas Dupont-Aignan utilisent très peu de mots-dièses (hashtags) dans leurs Tweets.
+
+<h6>1- François Fillon</h6>
+
 
 <p align="center">
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/HashtagsFillon.png" width="600"/>

@@ -37,7 +37,7 @@ The [scholar R package](https://cran.r-project.org/web/packages/scholar/index.ht
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/HashtagsArthaud.png" width="600"/>
 </p>
 
-5- François Fillon
+5- Nicolas Dupont-Aignan
 
 <p align="center">
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/HashtagsDupontA.png" width="600"/>
@@ -48,6 +48,7 @@ The [scholar R package](https://cran.r-project.org/web/packages/scholar/index.ht
 <p align="center">
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/HashtagsMelenchon.png" width="600"/>
 </p>
+
 
 ```R
 # Get how many articles a scholar has published

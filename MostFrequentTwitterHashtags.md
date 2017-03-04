@@ -3,10 +3,20 @@
 
 The [scholar R package](https://cran.r-project.org/web/packages/scholar/index.html) provides functions to retrieve citation data from Google Scholar. The package provides functions for comparing multiple scholars and predicting h-index scores based on past publication records.
 
+<h3>1- Sélection des candidats dont les comptes Twitter seront analysés</h3>
+Afin de sélectionner les candidats à considérer pour cette analyse, nous avons préféré utiliser le nombre total des parrainages que le Conseil Constitutionel [a reçu jusqu'au 3 mars(https://presidentielle2017.conseil-constitutionnel.fr/les-parrainages/parrainages-par-candidat/) pour sélectionner les six premiers candidats (Marine Le Pen, qui à se jour disposes seulement de 84 signatures, n'a pas été considérée).
+François Fillon et Emmanuel Macron disposent du grand nombre de signature. Le premier a dépassé les 500 signatures par des élus d’au moins 30 départements ou collectivités d’outre-mer.
+
+<p align="center">
+  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/Parrainages3mars2017.png" width="600"/>
+</p>
+
+
 <h5>Nombres de followers et de tweets par candidat</h5>
 Cette table donne les comptes twitter des six candidats aux Présidentielles 2017. La table est ordonnée selon le nombre d'abonnés (followers). Jean-Luc Mélenchon arrive en première position suivi d'Emmanuel Macron bien que ce dernier ne tweete que très peu (seulement 2 015 messages de 140 caratères (tweets)). 
 
-| Candidat | Parti | Compte Twitter | Nombre de followers" | Nombre de tweets |
+
+| Candidat | Parti | Compte Twitter | Nombre de "followers" | Nombre de tweets |
 | ------------- | ------------- | ------------- | ------------- |------------- |
 | Jean-Luc Mélenchon |  La France insoumise | [@JLMelenchon](https://twitter.com/JLMelenchon) | 982 K | 19,9 k |
 | Emmanuel Macron  |En Marche | [@EmmanuelMacron](https://twitter.com/EmmanuelMacron) | 536 K | 2 015 |
@@ -14,12 +24,9 @@ Cette table donne les comptes twitter des six candidats aux Présidentielles 201
 | Benoît Hamon   |Parti socialiste | [@benoithamon](https://twitter.com/benoithamon) | 338 K | 7 520 |
 | Nicolas Dupont-Aignan |Debout la France | [@dupontaignan](https://twitter.com/dupontaignan) | 90 k | 9 576 |
 | Nathalie Arthaud |Lutte ouvrière | [@n_arthaud](https://twitter.com/n_arthaud) | 2 005 | 617 |
-(Ces statistiques ont été extraites le 4 mars 2017 à 16h30)
+(Ces données ont été extraites le 4 mars 2017 à 16h30)
 
 
-<p align="center">
-  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/Parrainages3mars2017.png" width="600"/>
-</p>
 
 
 

@@ -1,6 +1,10 @@
 
 <h2> Les mots-dièse (hashtags) les plus utilisés par les candidats à la Présidentielle 2017 (Most frequent hashtags that are used by candidates for the French presidential election 2017)</h2>
 
+<p align="center">
+  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TwitterPolFR.png" width="600"/>
+</p>
+
 Les réseaux sociaux jouent un rôle important dans les campagnes politiques telles que la Présidentielle de 2017. Twitter France a lancé, le 12 octobre 2016, [TwitterPolFR](https://twitter.com/TwitterPolFR), un compte politique pour la couverture de l'actualité politique nationale et l'élection présidentielle de 2017. La plateforme [aucoeurdesdebats.fr](https://aucoeurdesdebats.fr) animée par Twitter France est "consacrée à la mise en avant des bonnes pratiques, données et usages créatifs de Twitter dans le domaine politique", selon l'équipe de TwitterProlFr.
 
 Twitter est un outil intéressant qui fonctionne comme un agrégateur d'articles de presse et d'autres types d'information. Créer une liste Twitter pour tous les femmes et hommes politiques ou toute la presse nationale, par exemple, permet un accès rapide et ciblé à l'actualité politique.
@@ -16,8 +20,8 @@ Sur les 313 millions d'utilisateurs actifs dans le monde (source : [Twitter 09/0
 Dans cet exemple, nous montrons comment l'analyse des messages publiés par les candidats à Présidentielle de 2017 sur Twitter permet d'identier les sujets prioritaires pour chaque candidat.
 
 <h3>1- Sélection des candidats dont les comptes Twitter seront analysés</h3>
-Afin de sélectionner les candidats à considérer pour cette analyse, nous avons préféré utiliser le nombre total des parrainages que le Conseil Constitutionel [a reçu jusqu'au 3 mars(https://presidentielle2017.conseil-constitutionnel.fr/les-parrainages/parrainages-par-candidat/) pour sélectionner les six premiers candidats (Marine Le Pen, qui à se jour disposes seulement de 84 signatures, n'a pas été considérée).
-François Fillon et Emmanuel Macron disposent du grand nombre de signature. Le premier a dépassé les 500 signatures par des élus d’au moins 30 départements ou collectivités d’outre-mer.
+Afin de sélectionner les candidats à considérer pour cette analyse, nous avons préféré utiliser le critère du nombre total des parrainages que le Conseil Constitutionel [a reçu jusqu'au 3 mars(https://presidentielle2017.conseil-constitutionnel.fr/les-parrainages/parrainages-par-candidat/). Les six premiers candidats ont été incluts dans notre analyse (Marine Le Pen, qui à ce jour disposes seulement de 84 signatures, n'a pas été considérée).
+François Fillon et Emmanuel Macron disposent du grand nombre de signatures. Le premier déjà dépassé les 500 signatures par des élus d’au moins 30 départements ou collectivités d’outre-mer.
 
 <p align="center">
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/Parrainages3mars2017.png" width="600"/>

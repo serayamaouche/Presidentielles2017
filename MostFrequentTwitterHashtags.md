@@ -4,6 +4,7 @@
 The [scholar R package](https://cran.r-project.org/web/packages/scholar/index.html) provides functions to retrieve citation data from Google Scholar. The package provides functions for comparing multiple scholars and predicting h-index scores based on past publication records.
 
 | Candidat | Parti | Compte Twitter | Nombre de followers" | Nombre de tweets |
+| ------------- | ------------- | ------------- | ------------- |------------- |
 | Jean-Luc Mélenchon |  La France insoumise | [@JLMelenchon](https:twitter.com/JLMelenchon) | 982 K | 19,9 k |
 | Emmanuel Macron  |En Marche | [@EmmanuelMacron](https:twitter.com/EmmanuelMacron) | 536 K | 2 015 |
 | François Fillon |Les Républicains  | [@FrancoisFillon](https:twitter.com/FrancoisFillon) | 441 K | 16,1 K |

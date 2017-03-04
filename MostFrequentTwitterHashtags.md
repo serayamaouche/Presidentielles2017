@@ -14,14 +14,14 @@ The [scholar R package](https://cran.r-project.org/web/packages/scholar/index.ht
 2- Emmanuel Macron
 
 <p align="center">
-  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/HashtagsMacron.png" width="450"/>
+  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/HashtagsMacron.png" width="600"/>
 </p>
 
 3- Benoit Hamon
 
 
 <p align="center">
-  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/HashtagsHamon.png" width="450"/>
+  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/HashtagsHamon.png" width="600"/>
 </p>
 
 
@@ -29,19 +29,19 @@ The [scholar R package](https://cran.r-project.org/web/packages/scholar/index.ht
 
 
 <p align="center">
-  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/HashtagsArthaud.png" width="450"/>
+  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/HashtagsArthaud.png" width="600"/>
 </p>
 
 5- François Fillon
 
 <p align="center">
-  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/HashtagsDupontA.png" width="450"/>
+  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/HashtagsDupontA.png" width="600"/>
 </p>
 
 6- Jean-Luc Mélenchon
 
 <p align="center">
-  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/HashtagsMelenchon.png" width="450"/>
+  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/HashtagsMelenchon.png" width="600"/>
 </p>
 
 ```R

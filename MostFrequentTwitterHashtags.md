@@ -1,5 +1,5 @@
 
-<h2> Les mots-dièse (hashtags) les plus utilisés par les candidats à la Présidentielle 2017</h2>
+<h2> Les mots-dièse (hashtags) les plus utilisés par les candidats à la Présidentielle 2017 (Most frequent hashtags that are used by candidates for the French presidential election 2017)</h2>
 
 Les réseaux sociaux jouent un rôle important dans les campagnes telles que les Présidentielles 2017. Twitter France a lancé, le 12 octobre 2016, [TwitterPolFR](https://twitter.com/TwitterPolFR), un compte politique pour la couverture de l'actualité politique nationale et l'élection présidentielle de 2017. La plateforme [aucoeurdesdebats.fr](https://aucoeurdesdebats.fr) animée par Twitter France est "consacrée à la mise en avant des bonnes pratiques, données et usages créatifs de Twitter dans le domaine politique", selon l'équipe de TwitterProlFr.
 

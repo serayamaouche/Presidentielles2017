@@ -3,7 +3,9 @@
 
 The [scholar R package](https://cran.r-project.org/web/packages/scholar/index.html) provides functions to retrieve citation data from Google Scholar. The package provides functions for comparing multiple scholars and predicting h-index scores based on past publication records.
 
-<h6>Nombres de followers et de tweets par candidat</h6>
+<h5>Nombres de followers et de tweets par candidat</h5>
+Cette table donne les comptes twitter des six candidats aux Présidentielles 2017. La table est ordonnée selon le nombre d'abonnés (followers). Jean-Luc Mélenchon arrive en première position suivi d'Emmanuel Macron bien que ce dernier ne tweete que très peu (seulement 2 015 messages de 140 caratères (tweets)). 
+
 | Candidat | Parti | Compte Twitter | Nombre de followers" | Nombre de tweets |
 | ------------- | ------------- | ------------- | ------------- |------------- |
 | Jean-Luc Mélenchon |  La France insoumise | [@JLMelenchon](https://twitter.com/JLMelenchon) | 982 K | 19,9 k |

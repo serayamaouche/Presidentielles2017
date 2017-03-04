@@ -6,9 +6,9 @@ extract.hashtags = function(vectorTweets)
   
   hash.matches = gregexpr(pattern = hash.pattern,
                           text = vec[have.hash])
-  extracted.hash = regmatches(x = vec[have.hash], m = hash.matches)
+  extract.hashtags = regmatches(x = vec[have.hash], m = hash.matches)
   
-  df = data.frame(table(tolower(unlist(extracted.hash))))
+  df = data.frame(table(tolower(unlist(extract.hashtags))))
   colnames(df) = c("tag","frequency")
   df = df[order(df$frequency,decreasing = TRUE),]
   return(df)

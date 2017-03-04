@@ -93,10 +93,3 @@ Aucun hashtag qui reflète des discussions sur des polémiques politiques ou qui
 </p>
 
 
-```R
-# Get how many articles a scholar has published
-authorID <- "NDyEvlQAAAAJ&hl"
-# Gets the citation history of a single article
-get_article_history(authorID, article)
-
-```

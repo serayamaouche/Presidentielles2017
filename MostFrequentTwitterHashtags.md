@@ -1,7 +1,15 @@
 
 <h2> Les mots-dièse (hashtags) les plus utilisés par les candidats aux Présidentielles 2017</h2>
 
-The [scholar R package](https://cran.r-project.org/web/packages/scholar/index.html) provides functions to retrieve citation data from Google Scholar. The package provides functions for comparing multiple scholars and predicting h-index scores based on past publication records.
+Les réseaux sociaux jouent un rôle important dans les campagnes telles que les Présidentielles 2017. Twitter France a lancé, le 12 octobre 2016, [TwitterPolFR](https://twitter.com/TwitterPolFR), un compte politique pour la couverture de l'actualité politique nationale et l'élection présidentielle de 2017. La plateforme [aucoeurdesdebats.fr](https://aucoeurdesdebats.fr) animée par Twitter France est "consacrée à la mise en avant des bonnes pratiques, données et usages créatifs de Twitter dans le domaine politique", selon l'équipe de TwitterProlFr.
+
+Twitter n'est pas seulement un endroit propice aux discussions politiques et au suivi des discours et des déplacements des candidats, il sert également à identifier les sources des polémiques qui ciblent certains candidats.
+
+L'analyse des données massives (Big Data) générées sur par les citoyens, les journalistes, les experts ou par les candidats eux même permet de corriger la stratégie d'une campagne. Elle sert également à répondre rapidement aux 
+
+Une étude publié, le 12 octobre dernier, par [Harris Interactive](http://harris-interactive.fr/opinion_polls/twitter-dans-la-vie-politique-et-les-campagnes-electorales/) a montré que 71% des internautes estiment que l’actualité politique est présente sur Twitter. 53% de ces internautes consultent Twitter sur le thème de la politique.
+
+Sur les 319 millions d'utilisateurs actifs dans le monde (source : Twitter 09/02/17), il y a 13,9 millions de visiteurs uniques en France (Médiamétrie 15/02/17). 45% des utilisateurs de Twitter sont des femmes, 55% sont des hommes.
 
 <h3>1- Sélection des candidats dont les comptes Twitter seront analysés</h3>
 Afin de sélectionner les candidats à considérer pour cette analyse, nous avons préféré utiliser le nombre total des parrainages que le Conseil Constitutionel [a reçu jusqu'au 3 mars(https://presidentielle2017.conseil-constitutionnel.fr/les-parrainages/parrainages-par-candidat/) pour sélectionner les six premiers candidats (Marine Le Pen, qui à se jour disposes seulement de 84 signatures, n'a pas été considérée).

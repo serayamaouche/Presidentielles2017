@@ -1,4 +1,5 @@
-extract.hashtags = function(vectorTweets){
+extract.hashtags = function(vectorTweets)
+ {
   
   hash.pattern = "#[[:alpha:]]+"
   have.hash = grep(x = vec, pattern = hash.pattern)
@@ -11,4 +12,4 @@ extract.hashtags = function(vectorTweets){
   colnames(df) = c("tag","frequency")
   df = df[order(df$frequency,decreasing = TRUE),]
   return(df)
-}
+ }

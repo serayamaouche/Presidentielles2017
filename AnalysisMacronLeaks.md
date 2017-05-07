@@ -30,7 +30,7 @@ GMX (Global Message eXchange) est un service de courrier électronique d'origine
 </metadata>
 ```
 
-Une enquête a été ouverte pour «accès frauduleux à un système de traitement automatisé de données» et «atteinte au secret des correspondances». Elle a été confiée à la Brigade d'enquêtes sur les fraudes aux technologies de l'information (Befti), selon une information de [Tribune de Genève](http://www.tdg.ch/monde/piratage-macron-enquete-ouverte/story/31443439). 
+Une enquête a été ouverte pour «accès frauduleux à un système de traitement automatisé de données» et «atteinte au secret des correspondances». Elle a été confiée à la Brigade d'enquêtes sur les fraudes aux technologies de l'information (Befti), selon une information de [la Tribune de Genève](http://www.tdg.ch/monde/piratage-macron-enquete-ouverte/story/31443439). 
 
 <h3>Extraction des tweets et identification des comptes impliqués</h3>
 Afin d'identifier l'origine de cette attaque électronique et les acteurs qui contribuent aux tweets utilisant le hashtag #MacronLeaks, nous avons anlaysé les données Twitter dans l'environment R.

@@ -25,8 +25,10 @@ Afin d'améliorer la lisibilité du graphe ci-dessus, nous avons mis un seuil de
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TopFrenchTweetsPlus15tweets.png" width="600"/>
 </p>
 
-Les compts qui contribuent à cette propagande. L'utilisateur avec le pseudo "NEVABELLE" apparait comme le comte le plus actif. D'après son profil, cet utilisateur est basé à Boulogne-sur-Mer. Son compte Twitter a été crée en 2011.
+<h4>Les comptes qui contribuent à cette propagande.</h4> 
+<p>L'utilisateur avec le pseudo "NEVABELLE" apparait comme le comte le plus actif. D'après son profil, cet utilisateur est basé à Boulogne-sur-Mer. Son compte Twitter a été crée en 2011.</p>
 
+```
 > print(count[1:20])
 
       NEVABELLE          epok83        JSarthre 
@@ -43,4 +45,5 @@ moimoipresident blackma83455223          ETFsNI
              17              17              17 
       bigoudi51  FrontisteDuSud 
              16              16 
-> 
+```
+

@@ -46,6 +46,24 @@ moimoipresident blackma83455223          ETFsNI
       bigoudi51  FrontisteDuSud 
              16              16 
 ```
+On focalise ensuite sur les tweets qui ont étélargement retweetés, voiçi la liste des "top 10". Il est important de noter que les comptes qui sont dans cette liste ne sont pas tous de l'extrême-droite. Les deux premiers , par exemple, songt plutôt des comptes qui tweetent contre le FN.
+```
+
+> print(df[df$isRetweet,][index[1:10],c('screenName','id','retweetCount')])
+         screenName                 id retweetCount
+52      Troncharlie 861244138272018432         3385
+197          rkanty 861243107416961024         3385
+217  sebastienmarot 861242928823496705         3385
+399       NEVABELLE 861241673396957186         3385
+561     lucawesome9 861240568894164992         3385
+825      nusnusanna 861238402536140800         3385
+1676      nanass777 861231554902863872         3385
+2059     DrPansophe 861228660594012164         3385
+2338      daammnson 861226893709893633         3385
+2531 mariannachou33 861225500886302720         3385
+
+```
+
 
 Après exclusion des Retweet, le graphe ci-après illustrent les utilisateurs qui ont publié au moins 5 tweets avec e hashtag #MacronLeaks.
 <p align="center">

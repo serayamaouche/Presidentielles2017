@@ -6,9 +6,18 @@
 </p>
 
 <h3>Extraction des tweets et identifications des comptes impliqués</h3>
+Nous avons d'abord effectué une analyse sans restriction de langue. Le graphe ci-après illustre les internautes qui ont le plus tweeté en utilisant le hashtag #MacronLeaks.
+
+<p align="center">
+  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TopTweetsNoLangSelect.png" width="600"/>
+</p>
+
+
+<h3>Extraction des tweets et identifications des comptes impliqués</h3>
 
 
 <p align="center">
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TopTweetsNoLangSelect.png" width="600"/>
 </p>
+
 

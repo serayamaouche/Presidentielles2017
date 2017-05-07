@@ -25,9 +25,22 @@ Afin d'améliorer la lisibilité du graphe ci-dessus, nous avons mis un seuil de
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TopFrenchTweetsPlus15tweets.png" width="600"/>
 </p>
 
-> print(comptage[1:10])
+Les compts qui contribuent à cette propagande. L'utilisateur avec le pseudo "NEVABELLE" apparait comme le comte le plus actif. D'après son profil, cet utilisateur est basé à Boulogne-sur-Mer. Son compte Twitter a été crée en 2011.
 
-        G0rille Capricorne75014   Magamemequeen   _YvonneBurton    jjjjjjjjjjl2        Neo69120 
-             32              26              26              23              23              23 
-        mllgigi     johan_otten      tullyframe       Ahurastan 
-             20              19              18              16 
+> print(count[1:20])
+
+      NEVABELLE          epok83        JSarthre 
+             37              35              34 
+  agostino31139        elfino26        Neo69120 
+             27              24              23 
+fra8frgmailcom1     Jackeraser2        celte1er 
+             22              22              21 
+        G0rille         mllgigi   bassemvaudais 
+             21              20              19 
+moimoipresident blackma83455223          ETFsNI 
+             18              17              17 
+   PascalLafont   Sabrina_IXOYE        Ujinbo56 
+             17              17              17 
+      bigoudi51  FrontisteDuSud 
+             16              16 
+> 

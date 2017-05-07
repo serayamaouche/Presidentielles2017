@@ -5,7 +5,7 @@
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TwitterPolitique.jpg" width="400"/>
 </p>
 
-Les métadonnées des archives partagées indiquent qu'un utilisateur avec l'email frankmacher1@gmx.de a partagé en ligne les données qui ont volées.
+Les métadonnées des archives partagées indiquent qu'un utilisateur avec l'email frankmacher1@gmx.de a partagé en ligne les données qui ont été volées.
 GMX (Global Message eXchange) est un service de courrier électronique d'origine allemande dont ses utilisateurs sont essentiellement basés en Allemagne, en Autriche et en Suisse.
 
 ```

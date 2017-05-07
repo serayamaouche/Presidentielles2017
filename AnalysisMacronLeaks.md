@@ -65,9 +65,9 @@ On focalise ensuite sur les tweets qui ont étélargement retweetés, voiçi la 
 ```
 
 
-Après exclusion des Retweet, le graphe ci-après illustrent les utilisateurs qui ont publié au moins 5 tweets avec e hashtag #MacronLeaks.
+Les tweets les plus populaires:
 <p align="center">
-  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TopFrenchTweetsRTexcludMore5tweets.png" width="600"/>
+  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/MostPopularTweets.png" width="600"/>
 </p>
 
 

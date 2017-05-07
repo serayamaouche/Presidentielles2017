@@ -47,3 +47,9 @@ moimoipresident blackma83455223          ETFsNI
              16              16 
 ```
 
+Après exclusion des Retweet, le graphe ci-après illustrent les utilisateurs qui ont publié au moins 5 tweets avec e hashtag #MacronLeaks.
+<p align="center">
+  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TopFrenchTweetsRTexcludMore5tweets.png" width="600"/>
+</p>
+
+

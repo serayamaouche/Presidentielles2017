@@ -63,11 +63,17 @@ On focalise ensuite sur les tweets qui ont étélargement retweetés, voiçi la 
 2531 mariannachou33 861225500886302720         3385
 
 ```
-
-
 Les tweets les plus populaires:
 <p align="center">
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/MostPopularTweets.png" width="600"/>
 </p>
+
+
+Les tweets les plus populaires:
+<p align="center">
+  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/wordCloud.png" width="600"/>
+</p>
+
+
 
 

@@ -12,12 +12,18 @@ Nous avons d'abord effectué une analyse sans restriction de langue. Le graphe c
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TopTweetsNoLangSelect.png" width="600"/>
 </p>
 
+Ensuite, nous avons limité l'analyse aux Tweets en français.
 
-<h3>Extraction des tweets et identifications des comptes impliqués</h3>
 
 
 <p align="center">
-  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TopTweetsNoLangSelect.png" width="600"/>
+  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TopFrenchTweetPlus10tweets.png" width="600"/>
 </p>
+
+Afin d'améliorer la lisibilité du graphe ci-dessus, nous avons mis un seuil de 15 tweets ou plus par utilisateurs :
+<p align="center">
+  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TopFrenchTweetsPlus15tweets.png" width="600"/>
+</p>
+
 
 

@@ -5,6 +5,28 @@
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TwitterPolitique.jpg" width="400"/>
 </p>
 
+```
+<metadata>
+<identifier>Macron_201705</identifier>
+<mediatype>texts</mediatype>
+<collection>opensource</collection>
+<description>Mail archive</description>
+<scanner>Internet Archive HTML5 Uploader 1.6.3</scanner>
+<subject>Macron</subject>
+<title>Macron</title>
+<publicdate>2017-05-05 11:17:39</publicdate>
+<uploader>frankmacher1@gmx.de</uploader>
+<addeddate>2017-05-05 11:17:39</addeddate>
+<curation>
+[curator]validator@archive.org[/curator][date]20170505112302[/date][comment]checked for malware[/comment]
+</curation>
+<language>English</language>
+<identifier-access>http://archive.org/details/Macron_201705</identifier-access>
+<identifier-ark>ark:/13960/t7np7fg57</identifier-ark>
+<repub_state>4</repub_state>
+</metadata>
+```
+
 <h3>Extraction des tweets et identifications des comptes impliqués</h3>
 Nous avons d'abord effectué une analyse sans restriction de langue. Le graphe ci-après illustre les internautes qui ont le plus tweeté en utilisant le hashtag #MacronLeaks.
 
@@ -47,8 +69,8 @@ moimoipresident blackma83455223          ETFsNI
              16              16 
 ```
 On focalise ensuite sur les tweets qui ont étélargement retweetés, voiçi la liste des "top 10". Il est important de noter que les comptes qui sont dans cette liste ne sont pas tous de l'extrême-droite. Les deux premiers , par exemple, songt plutôt des comptes qui tweetent contre le FN.
-```
 
+```
 > print(df[df$isRetweet,][index[1:10],c('screenName','id','retweetCount')])
          screenName                 id retweetCount
 52      Troncharlie 861244138272018432         3385

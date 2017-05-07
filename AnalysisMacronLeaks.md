@@ -1,9 +1,12 @@
 
-<h2> Analyse du hashtag #MacronLeaks qui a été lancé le 5 mai soir à la suite de la cyber-attaque qui a visé les données d'En Marche.</h2>
+<h2> Analyse du hashtag #MacronLeaks, qui a été lancé le 5 mai soir, à la suite de la cyber-attaque qui a visé les données d'En Marche.</h2>
 
 <p align="center">
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TwitterPolitique.jpg" width="400"/>
 </p>
+
+Les métadonnées des archives partagées indiquent qu'un utilisateur avec l'email frankmacher1@gmx.de a partagé en ligne les données qui ont volées.
+GMX (Global Message eXchange) est un service de courrier électronique d'origine allemande dont ses utilisateurs sont essentiellement basés en Allemagne, en Autriche et en Suisse.
 
 ```
 <metadata>
@@ -27,28 +30,27 @@
 </metadata>
 ```
 
-<h3>Extraction des tweets et identifications des comptes impliqués</h3>
-Nous avons d'abord effectué une analyse sans restriction de langue. Le graphe ci-après illustre les internautes qui ont le plus tweeté en utilisant le hashtag #MacronLeaks.
+<h3>Extraction des tweets et identification des comptes impliqués</h3>
+Afin d'identifier l'origine de cette attaque électronique et les acteurs qui contribuent aux tweets utilisant le hashtag #MacronLeaks, nous avons anlaysé les données Twitter dans l'environment R.
+Nous avons d'abord effectué une analyse sans restriction de langue. Le graphe ci-après illustre les internautes qui ont beaucoup tweeté en utilisant le hashtag #MacronLeaks.
 
 <p align="center">
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TopTweetsNoLangSelect.png" width="600"/>
 </p>
 
-Ensuite, nous avons limité l'analyse aux Tweets en français.
-
-
+Ensuite, nous avons effectué l'analyse séparément en anglais et en français.
 
 <p align="center">
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TopFrenchTweetPlus10tweets.png" width="600"/>
 </p>
 
-Afin d'améliorer la lisibilité du graphe ci-dessus, nous avons mis un seuil de 15 tweets ou plus par utilisateurs :
+Afin d'améliorer la lisibilité du graphe ci-dessus, nous avons mis une limite d'au moins 15 tweets par utilisateurs :
 <p align="center">
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TopFrenchTweetsPlus15tweets.png" width="600"/>
 </p>
 
 <h4>Les comptes qui contribuent à cette propagande.</h4> 
-<p>L'utilisateur avec le pseudo "NEVABELLE" apparait comme le comte le plus actif. D'après son profil, cet utilisateur est basé à Boulogne-sur-Mer. Son compte Twitter a été crée en 2011.</p>
+<p>L'utilisateur avec le pseudo "NEVABELLE" apparait comme le comte le plus actif. D'après son profil, il est basé à Boulogne-sur-Mer. Son compte Twitter a été crée en 2011.</p>
 
 ```
 > print(count[1:20])
@@ -68,7 +70,7 @@ moimoipresident blackma83455223          ETFsNI
       bigoudi51  FrontisteDuSud 
              16              16 
 ```
-On focalise ensuite sur les tweets qui ont étélargement retweetés, voiçi la liste des "top 10". Il est important de noter que les comptes qui sont dans cette liste ne sont pas tous de l'extrême-droite. Les deux premiers , par exemple, songt plutôt des comptes qui tweetent contre le FN.
+Notre analyse a ensuite focalisé sur les tweets qui ont été largement retweetés, voiçi la liste des "top 10". Il est important de noter que les comptes qui sont dans cette liste ne sont pas tous de l'extrême-droite. Les deux premiers , par exemple, sont plutôt des comptes qui tweetent contre le FN.
 
 ```
 > print(df[df$isRetweet,][index[1:10],c('screenName','id','retweetCount')])
@@ -91,7 +93,7 @@ Les tweets les plus populaires:
 </p>
 
 
-Les tweets les plus populaires:
+Le nuage des hashtags qui ont été utilisés par les internautes ayant publié avec #MacronLeaks:
 <p align="center">
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/wordCloud.png" width="600"/>
 </p>

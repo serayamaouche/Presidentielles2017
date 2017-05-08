@@ -8,7 +8,7 @@
 Les métadonnées des archives partagées indiquent qu'un utilisateur avec l'email frankmacher1@gmx.de a partagé en ligne les données qui ont été volées.
 GMX (Global Message eXchange) est un service de courrier électronique d'origine allemande dont ses utilisateurs sont essentiellement basés en Allemagne, en Autriche et en Suisse.
 
-```
+``` XML
 <metadata>
 <identifier>Macron_201705</identifier>
 <mediatype>texts</mediatype>
@@ -57,7 +57,7 @@ Afin d'améliorer la lisibilité du graphe ci-dessus, nous avons mis une limite 
 <h4>Les comptes qui contribuent à cette propagande</h4> 
 <p>L'utilisateur avec le pseudo "NEVABELLE" apparait comme le comte le plus actif. D'après son profil, il est basé à Boulogne-sur-Mer. Son compte Twitter a été crée en 2011.</p>
 
-```
+``` R
 > print(count[1:20])
 
       NEVABELLE          epok83        JSarthre 
@@ -77,7 +77,7 @@ moimoipresident blackma83455223          ETFsNI
 ```
 Notre analyse a ensuite focalisé sur les messages qui ont été largement retweetés, voiçi la liste des "top 10". Il est important de noter que les comptes qui sont dans cette liste ne sont pas tous de l'extrême-droite. Les deux premiers , par exemple, sont plutôt des comptes qui tweetent contre le FN.
 
-```
+``` R
 > print(df[df$isRetweet,][index[1:10],c('screenName','id','retweetCount')])
          screenName                 id retweetCount
 52      Troncharlie 861244138272018432         3385

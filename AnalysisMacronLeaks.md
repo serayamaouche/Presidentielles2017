@@ -30,11 +30,14 @@ GMX (Global Message eXchange) est un service de courrier électronique d'origine
 </metadata>
 ```
 
-Une enquête a été ouverte pour «accès frauduleux à un système de traitement automatisé de données» et «atteinte au secret des correspondances». Elle a été confiée à la Brigade d'enquêtes sur les fraudes aux technologies de l'information (Befti), selon une information de [la Tribune de Genève](http://www.tdg.ch/monde/piratage-macron-enquete-ouverte/story/31443439). 
+L'équipe de campagne d'Emmanuel Macron avait dénoncé vendredi 5 mai une action de piratage des coordonnée d'En Marche. Le [communiqué](https://en-marche.fr/article/communique-presse-piratage) avait confirmé "une action de piratage massive et coordonnée donnant lieu ce soir à la diffusion sur les réseaux sociaux d’informations internes de nature diverse (mails, documents comptables, contrats…)"
+
+Une enquête a été ouverte pour «accès frauduleux à un système de traitement automatisé de données» et «atteinte au secret des correspondances». Elle a été confiée à la Brigade d'enquêtes sur les fraudes aux technologies de l'information (Befti), selon une information de [La Tribune de Genève](http://www.tdg.ch/monde/piratage-macron-enquete-ouverte/story/31443439). 
 
 <h3>Extraction des tweets et identification des comptes impliqués</h3>
-Afin d'identifier l'origine de cette attaque électronique et les acteurs qui contribuent aux tweets utilisant le hashtag #MacronLeaks, nous avons anlaysé les données Twitter dans l'environment R.
-Nous avons d'abord effectué une analyse sans restriction de langue. Le graphe ci-après illustre les internautes qui ont beaucoup tweeté en utilisant le hashtag #MacronLeaks.
+Afin d'identifier l'origine de cette attaque électronique et les acteurs qui contribuent aux tweets utilisant le hashtag #MacronLeaks, nous avons d'abord examiné les fichiers des métadonnées qui sont disponibles dans les archives en ligne.
+Nous avons ensuite anlaysé les données Twitter dans l'environment R.
+La première partie de l'analyse a été effectué sans restriction de langue. Le graphe ci-après illustre les internautes qui ont beaucoup tweeté en utilisant le hashtag #MacronLeaks.
 
 <p align="center">
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TopTweetsNoLangSelect.png" width="600"/>
@@ -51,7 +54,7 @@ Afin d'améliorer la lisibilité du graphe ci-dessus, nous avons mis une limite 
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TopFrenchTweetsPlus15tweets.png" width="600"/>
 </p>
 
-<h4>Les comptes qui contribuent à cette propagande.</h4> 
+<h4>Les comptes qui contribuent à cette propagande</h4> 
 <p>L'utilisateur avec le pseudo "NEVABELLE" apparait comme le comte le plus actif. D'après son profil, il est basé à Boulogne-sur-Mer. Son compte Twitter a été crée en 2011.</p>
 
 ```
@@ -72,7 +75,7 @@ moimoipresident blackma83455223          ETFsNI
       bigoudi51  FrontisteDuSud 
              16              16 
 ```
-Notre analyse a ensuite focalisé sur les tweets qui ont été largement retweetés, voiçi la liste des "top 10". Il est important de noter que les comptes qui sont dans cette liste ne sont pas tous de l'extrême-droite. Les deux premiers , par exemple, sont plutôt des comptes qui tweetent contre le FN.
+Notre analyse a ensuite focalisé sur les messages qui ont été largement retweetés, voiçi la liste des "top 10". Il est important de noter que les comptes qui sont dans cette liste ne sont pas tous de l'extrême-droite. Les deux premiers , par exemple, sont plutôt des comptes qui tweetent contre le FN.
 
 ```
 > print(df[df$isRetweet,][index[1:10],c('screenName','id','retweetCount')])

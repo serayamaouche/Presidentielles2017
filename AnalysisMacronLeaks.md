@@ -54,7 +54,7 @@ Afin d'améliorer la lisibilité du graphe ci-dessus, nous avons mis une limite 
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TopFrenchTweetsPlus15tweets.png" width="600"/>
 </p>
 
-<h4>Les comptes qui contribuent à cette propagande</h4> 
+<h4>Les comptes francophones qui contribuent à cette propagande</h4> 
 <p>L'utilisateur avec le pseudo "NEVABELLE" apparait comme le comte le plus actif. D'après son profil, il est basé à Boulogne-sur-Mer. Son compte Twitter a été crée en 2011.</p>
 
 ``` R
@@ -102,6 +102,59 @@ Le nuage des hashtags qui ont été utilisés par les internautes ayant publié 
 <p align="center">
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/wordCloud.png" width="600"/>
 </p>
+
+
+<h4>Les comptes angolophones qui contribuent à la diffusion du hashtag #MacronLeaks</h4> 
+<p></p>
+
+``` R
+> print(count[1:20])
+
+   MKUltraSperg   Jenny99245688 Patriot_Girl_TX   Pepethetroll1 
+             24              19              19              18 
+  pepethetroll2     brendafox26  Quincy_l_Jones      RealStephF 
+             18              16              15              13 
+     AndreFrato     Makerel_Sky      MockNDrole    NesterTweets 
+             12              12              12              12 
+UKRebelAlliance  sixmillionlied     NeutralMate OHenryHernandez 
+             12              11              10              10 
+  SaveTheseDogs   Flemington455         hmbr123   Nikhil_Rathor 
+             10               9               9               9 
+```
+
+Les tweets les plus populaires:
+<p align="center">
+  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TopUsersEnglish.png" width="600"/>
+</p>
+
+Notre analyse a ensuite focalisé sur les messages qui ont été largement retweetés, voiçi la liste des "top 10". Il est important de noter que les comptes qui sont dans cette liste ne sont pas tous de l'extrême-droite. Les deux premiers , par exemple, sont plutôt des comptes qui tweetent contre le FN.
+
+``` R
+> print(df[df$isRetweet,][index[1:10],c('screenName','id','retweetCount')])
+         screenName                 id retweetCount
+30     1rishinfidel 861458217791913984         7539
+936     soleilbeach 861428034540371970         7539
+1032 ANTHONYPERRONI 861425609284702208         7539
+1059       nikkudix 861424929438277632         7539
+1150   johnsgirlsx3 861422659942453249         7539
+1725     rainbowgl7 861409944817377280         7539
+1727   Stevens10Liz 861409927373443072         7539
+3015  Lain_Coulbert 861384132370329601         7539
+3645       o_obilly 861373919919570944         7539
+5680   MollyMcBeal1 861351264923389952         7539
+
+```
+Les tweets les plus populaires:
+<p align="center">
+  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TopUserEnRTexcluded.png" width="600"/>
+</p>
+
+
+Le nuage des hashtags qui ont été utilisés par les internautes ayant publié avec #MacronLeaks:
+<p align="center">
+  <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/WordCloudHashtagEnglish.png" width="600"/>
+</p>
+
 
 
 

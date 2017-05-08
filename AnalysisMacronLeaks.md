@@ -92,13 +92,13 @@ Notre analyse a ensuite focalisé sur les messages qui ont été largement retwe
 2531 mariannachou33 861225500886302720         3385
 
 ```
-Les tweets les plus populaires:
+Les tweets les plus populaires ont été publiés par ces utilisateurs :
 <p align="center">
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/MostPopularTweets.png" width="600"/>
 </p>
 
 
-Le nuage des hashtags qui ont été utilisés par les internautes ayant publié avec #MacronLeaks:
+Le nuage des hashtags qui ont été utilisés par les internautes ayant publié sur le #MacronLeaks:
 <p align="center">
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/wordCloud.png" width="600"/>
 </p>
@@ -122,12 +122,12 @@ UKRebelAlliance  sixmillionlied     NeutralMate OHenryHernandez
              10               9               9               9 
 ```
 
-Les tweets les plus populaires:
+Les tweets les plus populaires ont été publiés par :
 <p align="center">
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TopUsersEnglish.png" width="600"/>
 </p>
 
-Notre analyse a ensuite focalisé sur les messages qui ont été largement retweetés, voiçi la liste des "top 10". Il est important de noter que les comptes qui sont dans cette liste ne sont pas tous de l'extrême-droite. Les deux premiers , par exemple, sont plutôt des comptes qui tweetent contre le FN.
+Notre analyse a ensuite focalisé sur les messages qui ont été largement retweetés, voiçi la liste des "top 10".
 
 ``` R
 > print(df[df$isRetweet,][index[1:10],c('screenName','id','retweetCount')])
@@ -144,7 +144,7 @@ Notre analyse a ensuite focalisé sur les messages qui ont été largement retwe
 5680   MollyMcBeal1 861351264923389952         7539
 
 ```
-Les tweets les plus populaires:
+Les tweets les plus populaires après exclusion des retweets:
 <p align="center">
   <img src="https://github.com/serayamaouche/Presidentielles2017/blob/master/TopUserEnRTexcluded.png" width="600"/>
 </p>

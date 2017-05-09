@@ -164,3 +164,5 @@ wordcloud(names(nhashtags)[-1],nhashtags[-1],scale=c(3,.5),colors=brewer.pal(8, 
 
 
 
+
+

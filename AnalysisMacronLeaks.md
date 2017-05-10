@@ -1,6 +1,6 @@
-<h4>Dernière modification : 10 mai 2017</h4>
+<h3>Dernière modification : 10 mai 2017</h3>
 
-<h2> Analyse du hashtag #MacronLeaks, qui a été lancé le 5 mai soir, à la suite de la cyber-attaque qui a visé les données d'En Marche.</h2
+<h2> Analyse du hashtag #MacronLeaks, qui a été lancé le 5 mai soir, à la suite de la cyber-attaque qui a visé les données d'En Marche.</h2>
 
 
 <p align="center">

@@ -3,8 +3,8 @@
 <h2> Analyse du hashtag #MacronLeaks, qui a été lancé le 5 mai soir, à la suite de la cyber-attaque qui a visé les données d'En Marche.</h2>
 
 <p>Dernières infos</p>
-* The Rebel TV, le media de Jack Posobiec, une personne très active dans la diffusion du #MacronLeaks et dans la publications d'articles et vidéos contre Emmanuel Macron, a été accréditée à la Maison Blanche. Jack Posobiec est le "Washington Bureau Chief" de Rebel TV.
-* Les observateurs attribuent les attaques à l'extrême-droite américaine et aux Russes. Notre analyse des tweets a révélé des comptes de l'extrême-droite américaine ou européenne, des comptes russes, mais beaucoup de comptes de l'extrême-droite française. La copine de Jack Posobiec, une polonaise naturalisée américaine, est très active dans cette campagne sur les réseaux sociaux. Elle s'appelle Tanya Tay (sur Twitter elle utilise le pseudo @GoTTdiva)
+- The Rebel TV, le media de Jack Posobiec, une personne très active dans la diffusion du #MacronLeaks et dans la publications d'articles et vidéos contre Emmanuel Macron, a été accréditée à la Maison Blanche. Jack Posobiec est le "Washington Bureau Chief" de Rebel TV.
+- Les observateurs attribuent les attaques à l'extrême-droite américaine et aux Russes. Notre analyse des tweets a révélé des comptes de l'extrême-droite américaine ou européenne, des comptes russes, mais beaucoup de comptes de l'extrême-droite française. La copine de Jack Posobiec, une polonaise naturalisée américaine, est très active dans cette campagne sur les réseaux sociaux. Elle s'appelle Tanya Tay (sur Twitter elle utilise le pseudo @GoTTdiva)
 
 
 <p align="center">
